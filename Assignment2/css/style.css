@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+    background-image: url("../img/bg1.jpg");
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 50px;
+    /* background-color: rgba(151, 196, 241, 0.4); */
+    color: #191970; 
+    font-size: 25px;
+    
+}
+
+header > h1{
+    margin: 15px;
+}
+header > h2{
+
+    margin: 0px;
+    padding: 10px;
+    margin-right: 34%;
+    margin-left: auto;
+    font-size: 26px;
+
+}
+
+header > h1 ,
+ header > h2 {
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 3px;
+    
+ }
+.container{
+    display: flex;
+    flex-direction: column;
+    font-size: 23px;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Gamja Flower';
+}
+
+@font-face {
+    font-family: crazy;
+    src: url("../font/Youmurdererbb-pwoK.otf");
+}
+
+span{
+    font-family: crazy ;
+    font-size: 33px;
+    font-weight: 500;
+}
+ .sadBlue {
+    color: #191970;
+    font-family: Rajdhani, sans-serif;
+    font-size: 22px;
+}
+.happyYellow{
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    font-size: 35px;
+    color: #ffcc00;
+    text-shadow: 0 0 3px #1d1d1d, 0 0 5px #d1d1d1;
+}
+.strong{
+    color: #ff0000;
+}
